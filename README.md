@@ -1,4 +1,5 @@
 <h1 align="center" id="title">19 BITS</h1>
+<h6 align="center" id="title">Mar Baselios College of Engineering and Technology (Autonomous)</h6>
 <h2 align="center" id="title">Single-Node-Finetuning-of-Tiny-LLama-using-Intel-Xeon-SPR</h2>
 
 <p align="center"><img src="https://socialify.git.ci/eternalflame02/Single-Node-Finetuning-of-Tiny-LLama-using-Intel-Xeon-SPR/image?font=Source%20Code%20Pro&amp;name=1&amp;pattern=Circuit%20Board&amp;theme=Dark" alt="project-image"></p>
