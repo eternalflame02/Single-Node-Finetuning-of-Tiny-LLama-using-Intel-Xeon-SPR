@@ -76,9 +76,10 @@ Curl -O https://github.com/tatsu-lab/stanford_alpaca/raw/main/alpaca_data.json
 
 <h3>Public Repositories:
 
+
 *   [intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers)
 *   [TinyLlama/TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0)
-
+*   [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 
 
 
