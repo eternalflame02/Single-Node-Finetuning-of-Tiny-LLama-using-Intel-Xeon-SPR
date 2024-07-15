@@ -65,3 +65,11 @@ huggingface-cli login
 ```
 Curl -O https://github.com/tatsu-lab/stanford_alpaca/raw/main/alpaca_data.json
 ```
+
+
+<h2>🍰 Contributors:</h2>
+
+<p></p>
+
+
+[@Rohith NS](https://github.com/eternalflame02)<br>[@Joshua Sunny Ninan](https://github.com/Joshualostonearth)<br>[@Avin ](https://github.com/ajsike2310)<br>[@Edwin K Mathew](https://github.com/EdKMathew)  <br> <br>
