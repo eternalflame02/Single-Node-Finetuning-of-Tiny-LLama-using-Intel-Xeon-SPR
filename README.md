@@ -60,7 +60,7 @@ huggingface-cli login
 
 <h3>5. Downloading Data</h3>
 <p>Download the dataset required for fine-tuning.</p>
-<p>1.	Download the Alpaca dataset:</p>
+<p>5.1.	Download the Alpaca dataset:</p>
 
 ```
 Curl -O https://github.com/tatsu-lab/stanford_alpaca/raw/main/alpaca_data.json
