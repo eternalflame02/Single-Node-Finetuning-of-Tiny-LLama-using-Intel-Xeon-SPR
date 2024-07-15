@@ -6,40 +6,62 @@
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Prepare Environment(Execute them in terminal):</p>
+<h3>1. Environment Setup(Execute them in terminal):</h3>
+
+<p>Set up a Python environment with the necessary dependencies.</p>
+<p>1.1.  Create and activate a Conda environment:</p>
 
 ```
 conda create -n itrex-1 python=3.10 -y
-```
-
-```
 conda activate itrex-1
 ```
+<p>This creates a new Conda environment named itrex-1 with Python 3.10 and activates it.</p>
+
+<p>1.2.	Install required Python packages:</p>
 
 ```
 pip install intel-extension-for-transformers
 ```
 
+<h3>2. Cloning the Repository</h3>
+<p>2.1.	Clone the repository:</p>
+
 ```
 git clone https://github.com/eternalflame02/Single-Node-FInetuning-of-Tiny-LLama-using-Intel-Xeon-SPR.git
 ```
+<p>2.2.	Navigate to the fine-tuning directory:</p>
 
 ```
 cd ./Single-Node-FInetuning-of-Tiny-LLama-using-Intel-Xeon-SPR/Fine Tuning/
 ```
 
+<h3>3. Installing Additional Dependencies</h3>
+<p>Install additional dependencies required for fine-tuning.</p>
+<p>3.1.	Install dependencies from the requirements.txt file:</p>
+
+
 ```
 pip install -r requirements.txt
 ```
+<p>3.2.	Install Jupyter and IPython kernel:</p>
+
+```
+python3 -m pip install jupyter ipykernel
+python3 -m ipykernel install --name neural-chat--user
+```
+<h3>4. Setting Up Hugging Face Authentication</h3>
+<p>Authenticate with Hugging Face to access and download models.</p>
+<p>4.1.	Login to Hugging Face:</p>
 
 ```
 huggingface-cli login
 ```
+<p>Create a token in https://huggingface.co/settings/tokens insert them in the huggingface login interface.</p>
+
+<h3>5. Downloading Data</h3>
+<p>Download the dataset required for fine-tuning.</p>
+<p>1.	Download the Alpaca dataset:</p>
 
 ```
-python3 -m pip install jupyter ipykernel
-```
-
-```
-python3 -m ipykernel install --name neural-chat--user
+Curl -O https://github.com/tatsu-lab/stanford_alpaca/raw/main/alpaca_data.json
 ```
